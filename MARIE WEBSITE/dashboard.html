@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dash.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="head-image">
+        <div class="header-text">
+            <h1 style="text-align: center;">Marie Computer store Dashboard</h1>
+        </div>
+    </div>
+    </div>
+    <div class="options">
+        <div class="customers">
+            <div class="survey-head">
+                <h2 style="display: inline-block; background-color: green; width: 100%; color: white;">Customer's details:</h2>
+                <?php
+                require 'fetch_clients.php';
+                ?>
+            </div>
+        </div>
+        <div class="orders">
+            <h2 style="display: inline-block; background-color: green; width: 100%; color: white;">Orders:
+            </h2>
+            <?php
+            require 'fetch_orders.php';
+            ?>
+        </div>
+        <div class="reports">
+            <h2 style="display: inline-block; background-color: green; width: 100%; color: white;">Basic Reports:</h2>
+
+        </div>
+    </div>
+    <div class="messages">
+        <h2 style="display: inline-block; background-color: green; margin-left: 20px; width: 98%; color: white;">All messeges
+        </h2>
+        <?php
+        require 'fetch_messages.php';
+        ?>
+    </div>
+</body>
+
+</html>

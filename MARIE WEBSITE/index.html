@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Signup</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+    body {
+      height: 100vh;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "Oswald", sans-serif;
+    }
+
+    form {
+      height: 450px;
+      width: 500px;
+      background-color: #5867e6;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    form input {
+      height: 30px;
+      width: 250px;
+      background-color: inherit;
+      border: none;
+      border-bottom: 1px solid #ddd;
+      color: #ddd;
+    }
+
+    form input::placeholder {
+      color: #ddd;
+    }
+
+    form a {
+      margin-top: 10px;
+      color: #333;
+    }
+
+    button {
+      width: 100px;
+      height: 30px;
+      border-radius: 5px;
+      border: none;
+      background-color: #e3e4e5;
+    }
+
+    .signup-page {
+      display: flex;
+    }
+
+    .signup-page img {
+      height: 100%;
+      width: 500px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Create Account</h2>
+  <div class="signup-page">
+    <img src="https://www.salesforce.com/blog/wp-content/uploads/sites/2/2023/11/SF_Blog_Image_Ecommerce_Changing_Everything.png" alt="">
+    <form action="signup_process.php" method="post" enctype="multipart/form-data">
+      <input type="text" name="username" id="username" placeholder="UserName" required /><br />
+
+      <input type="email" name="email" id="email" placeholder="Email Address" required /><br />
+
+      <input type="file" name="profile_picture" id="profile_picture" /><br />
+
+      <input type="tel" name="phone_number" id="phone_number" placeholder="Phone Number" /><br />
+
+      <input type="password" name="password" id="password" placeholder="Password" required /><br />
+
+      <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password"
+        required /><br />
+
+      <button type="submit">Sign Up</button>
+      <a href="login.php">Already have an Account? Login...</a>
+    </form>
+  </div>
+</body>
+
+</html>

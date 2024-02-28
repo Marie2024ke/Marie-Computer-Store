@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marie computer store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="	https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div style="justify-content: space-between;" class="search-section">
+        <img src="images/marie.png" alt="" />
+        <div id="category-dropdown">
+            <ul style="list-style-type: none; display: flex; justify-content: space-between; width: 500px;">
+                <li>
+                    <a style="text-decoration: none; color: #333; display: flex; align-items: center;" href="home.html">
+                        <span class="material-symbols-rounded">
+                            home
+                            </span>
+                        <span style="margin-left: 5px; font-size: 16px;">Home</span></a>
+                </li>
+                <li>
+                    <a style="text-decoration: none; color: #333; display: flex; align-items: center;" href="cart.html">
+                        <span class="material-symbols-rounded">
+                            devices
+                            </span>
+                        <span style="margin-left: 5px; font-size: 16px;">Products</span></a>
+                </li>
+                <li>
+                    <a style="text-decoration: none; color: #333; display: flex; align-items: center;" href="contact.html">
+                        <span class="material-symbols-rounded">
+                            contact_support
+                            </span>
+                        <span style="margin-left: 5px; font-size: 16px;">Contact</span></a>
+                </li>
+                <li>
+                    <a style="text-decoration: none; color: #333; display: flex; align-items: center;" href="payment.html">
+                        <span class="material-symbols-rounded">
+                            sell
+                            </span>
+                        <span style="margin-left: 5px; font-size: 16px;">Payments</span></a>
+                </li>
+            </ul>
+        </div>
+        <span style="margin-right: 50px;" class="accountContainer">
+            <span class="material-symbols-rounded"> account_circle </span>
+            <span>
+                <p>Login</p>
+                <p>Account</p>
+            </span>
+        </span>
+    </div>
+
+    <section class="cards-advert">
+        <div class="cards-advert-left">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img style="height: 385px; object-fit: cover; border-radius: 5px;"
+                            src="images/Logotype Boutique Fashion Neon.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-advert-right">
+            <div class="cards-advert-right-top">
+                <img style="border-radius: 5px;" src="images/marie.png" alt="">
+            </div>
+            <div class="cards-advert-right-bottom">
+                <img style="border-radius: 5px;" src="images/welcome.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="starter-categories">
+        <a href="cart.html">
+            <div class="starter-item">
+                <img src="https://th.bing.com/th/id/OIP.ie4okV7GD4UoLMBX02PvFQHaF4?rs=1&pid=ImgDetMain"
+                    alt="computer image">
+                <h5>Laptops</h5>
+                <p> Available</p>
+            </div>
+        </a>
+        <a href="cart.html">
+            <div class="starter-item">
+                <img src="https://th.bing.com/th/id/R.78341d0159a9842e9f5d94d56ccc57a1?rik=yh0HNURWGyyw3A&pid=ImgRaw&r=0"
+                    alt="computer parts image">
+                <h5>Computer Parts</h5>
+                <p> Available</p>
+            </div>
+        </a>
+        <a href="cart.html">
+            <div class="starter-item">
+                <img src="images/1.jpg" alt="">
+                <h5>Desktops</h5>
+                <p> Available</p>
+            </div>
+        </a>
+    </section>
+    <section id="commerce-items">
+        <section class="hotDealsContainer">
+            <div id="hotDealsHeader">
+                <span class="spanHeader">
+                    <span class="material-symbols-rounded">
+                        alarm
+                    </span>
+                    <span>HOT DEALS!</span>
+                    <span>GET OUR BEST PRICES</span>
+                </span>
+                <span style="display: flex; align-items: center;" class="offerTimer">
+                    <span>
+                        <a style="text-decoration: none; color: #8d979e;" href="cart.html">View All Products</a>
+                    </span>
+                    <span style="color: #8d979e;" class="material-symbols-rounded">
+                        chevron_right
+                    </span>
+                </span>
+            </div>
+            <div class="hotDealsBody">
+                <div class="dealsAdvert">
+                    <img src="https://demo-uminex.myshopify.com/cdn/shop/files/img_1_3.png?v=1673017886&width=1500"
+                        alt="">
+                </div>
+                <div class="product" data-id="1" data-name="Product 1" data-price="18200">
+                    <div
+                        style="background-color: #dd3842; color: #ffffff; font-weight: bold; font-size: 14px; height: 25px; width: 60px; display: flex; align-items: center; justify-content: center; margin-left: -130px;">
+                        -67%</div>
+                    <img src="images/1.jpg" alt="">
+                    <h5><a href="product-details.html?id=1">Hp Desktop<br>Generic core i5</a></h5>
+                    <span class="starIcons">
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <span style="color: #8d979e; font-size: 12px;"></span>
+                    </span>
+                    <span class="itemPrice">
+                        <h6>Kes 18,200</h6>
+                        <span><s style="color: #8d979e; margin-left: 5px; font-size: 12px;">Kes 21,700</s></span>
+                    </span>
+
+                </div>
+                <div class="product" data-id="2" data-name="Product 2" data-price="18200">
+                    <div
+                        style="background-color: #dd3842; color: #ffffff; font-weight: bold; font-size: 14px; height: 25px; width: 60px; display: flex; align-items: center; justify-content: center; margin-left: -130px;">
+                        -67%</div>
+                    <img src="https://th.bing.com/th/id/R.60579c9e6a75d380af842d1cc17ac3ea?rik=Q%2b9dWX8ngauNlg&pid=ImgRaw&r=0"
+                        alt="">
+                    <h5><a href="product-details.html?id=2">Laptop <br>Zbook 500GB</a></h5>
+                    <span class="starIcons">
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <span style="color: #8d979e; font-size: 12px;"></span>
+                    </span>
+                    <span class="itemPrice">
+                        <h6>Kes 25,000</h6>
+                        <span><s style="color: #8d979e; margin-left: 5px; font-size: 12px;">Kes 35,000</s></span>
+                    </span>
+
+                </div>
+                <div class="product" data-id="3" data-name="Product 3" data-price="18200">
+                    <div
+                        style="background-color: #dd3842; color: #ffffff; font-weight: bold; font-size: 14px; height: 25px; width: 60px; display: flex; align-items: center; justify-content: center; margin-left: -130px;">
+                        -67%</div>
+                    <img src="https://smartphonemodel.com/wp-content/uploads/2022/10/Samsung-Galaxy-S24-Ultra-5G.jpg"
+                        alt="">
+                    <h5><a href="product-details.html?id=3">Samsung s24<br> new 2024</a></h5>
+                    <span class="starIcons">
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <span style="color: #8d979e; font-size: 12px;"></span>
+                    </span>
+                    <span class="itemPrice">
+                        <h6>Kes 100,000</h6>
+                        <span><s style="color: #8d979e; margin-left: 5px; font-size: 12px;">Kes 115,000</s></span>
+                    </span>
+                </div>
+                <div class="product" data-id="4" data-name="Product 4" data-price="18200">
+                    <div
+                        style="background-color: #dd3842; color: #ffffff; font-weight: bold; font-size: 14px; height: 25px; width: 60px; display: flex; align-items: center; justify-content: center; margin-left: -130px;">
+                        -67%</div>
+                    <img src="https://th.bing.com/th/id/R.a3fdb7a627c3917ee14cd1fa8675b81c?rik=OjAz1u5V2sK5Wg&riu=http%3a%2f%2fg-ecx.images-amazon.com%2fimages%2fG%2f02%2fuk-electronics%2fproduct_content%2fHP%2fCompaqQ42011%2fGet-the-complete-package._V163679618_.jpg&ehk=F8SiNGSzQFKHjxCrq9rUMkeTvDiXe9wewrmkUi7Gt1k%3d&risl=&pid=ImgRaw&r=0"
+                        alt="">
+                    <h5><a href="product-details.html?id=4">Cuostom<br>Desktop pc</a></h5>
+                    <span class="starIcons">
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <i class="las la-star"></i>
+                        <span style="color: #8d979e; font-size: 12px;"></span>
+                    </span>
+                    <span class="itemPrice">
+                        <h6>Kes 20,000</h6>
+                        <span><s style="color: #8d979e; margin-left: 5px; font-size: 12px;">Kes 20,500</s></span>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="iconItem">
+                <span class="material-symbols-rounded">
+                    local_shipping
+                </span>
+                <h5>FAST DELIVERY</h5>
+                <p>Accross Kenya</p>
+            </div>
+            <div class="iconItem">
+                <span class="material-symbols-rounded">
+                    barcode_scanner
+                </span>
+                <h5>SAFE PAYMENT</h5>
+                <p>100% Secure M-Pesa Payment</p>
+            </div>
+            <div class="iconItem">
+                <span class="material-symbols-rounded">
+                    person
+                </span>
+                <h5>ONLINE DISCOUNT</h5>
+                <p>Crazy Discounts</p>
+            </div>
+            <div class="iconItem">
+                <span class="material-symbols-rounded">
+                    support_agent
+                </span>
+                <h5>HELP CENTER</h5>
+                <p>Dedicated 24/7 Support</p>
+            </div>
+            <div class="iconItem">
+                <span class="material-symbols-rounded">
+                    summarize
+                </span>
+                <h5>CURATED ITEMS</h5>
+                <p>From Handpicked Sellers</p>
+            </div>
+        </section>
+        <footer>
+            <div class="about">
+                <h5 style="font-size: 14px; font-weight: bold;">ABOUT THE STORE</h5>
+                <p style="color: #515d66; font-size: 13px; margin-top: 30px;">Got Question? Call us 24/7</p>
+                <h3 style="color: #2b38d1; font-weight: bold;">+254-746925165</h3>
+                <p style="color: #515d66; font-size: 13px; margin-top: 30px; font-weight: 500;">
+                    Thika Town, Kenya<br>
+                </p>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>
